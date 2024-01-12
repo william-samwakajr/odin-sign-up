@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+.logo {
+    position: relative;
+    height: 100%;
+}
+
+.logo-card {
+    width: 100%;
+    height: 12rem;
+    position: absolute;
+    bottom: 55%;
+    background: black;
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.odin-card {
+    width: 100%;
+    height: 12rem;
+    position: absolute;
+    bottom: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo-image {
+    margin-left: 10rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 20%;
+}
+
+.odin {
+    margin-right: 9rem;
+    margin-top: 1.5rem;
+    font-family: Norse;
+    font-size: 8rem;
+    color: white;
+    opacity: 1;
+    z-index: 1;
+}
+
+.top,
+.middle {
+    padding-left: 4rem;
+}
+
+.second-half {
+    padding-top: 15rem;
+}
+
+:root {
+    --input-color: #E5E7EB;
+    --selected-color: royalblue;
+    --invalid-color: red;
+}
+
+.top {
+    background-color: lightgrey;
+    padding-bottom: 5rem;
+}
+
+.middle {}
+
+.para {
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.form {
+    width: 60%;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+input {
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 0.6rem;
+    border-color: var(--input-color);
+}
